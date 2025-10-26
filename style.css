@@ -1,0 +1,13 @@
+/* ... existant ... */
+
+.livrable-note { 
+  display: block; 
+  width: 95%; 
+  margin-top: 5px; 
+  padding: 5px; 
+  font-size: 14px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  resize: vertical; 
+  min-height: 40px;
+}
