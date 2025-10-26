@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.open("https://chat.openai.com/", "_blank");
   });
 
-  // Générer livrable via LLM (avec notes)
+  // Générer livrables via LLM (avec notes)
   generateLivrableBtn.addEventListener("click", () => {
     if (!llmData?.livrables) return;
     const selected = Array.from(livrablesList.querySelectorAll("li")).filter(li => li.querySelector("input[type=checkbox]").checked);
